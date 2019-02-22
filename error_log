@@ -1,0 +1,195 @@
+[18-Feb-2019 08:27:45 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 22
+[18-Feb-2019 08:27:46 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_gj0QyJQ2XIWPDC'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[18-Feb-2019 08:28:07 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 22
+[18-Feb-2019 08:28:08 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_zADb43aNN0sJrj'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[18-Feb-2019 08:35:30 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 22
+[18-Feb-2019 08:35:30 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_KR15y5vFudjvyO'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[18-Feb-2019 08:36:03 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 22
+[18-Feb-2019 08:36:04 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_5U19bgGEtJt1Eh'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[18-Feb-2019 08:38:32 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: tok_1E57dx2eZvKYlo2CxSkXZ79Y in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_h4yZEZNiSIG6K1'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php( in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[18-Feb-2019 08:42:15 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[18-Feb-2019 08:42:16 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_0Ieb45As4cWd4w'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[18-Feb-2019 11:35:20 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:129 from API request 'req_bbpgl9ZjPzxELB'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 129
+[19-Feb-2019 05:05:40 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:129 from API request 'req_W6TrLlnUHLN9EO'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 402, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 402, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 129
+[19-Feb-2019 05:06:00 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 05:06:01 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_9xh8NXVTbzJkXd'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 05:06:01 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 05:06:01 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_A2gJP00WLL2KPb'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 05:07:20 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 05:07:20 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_rrVWePR8pzRYIn'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 05:37:13 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 05:37:14 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_KMxFxhyVfOo4qp'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 07:17:42 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 07:17:42 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_mS8sv2AAJBvjdu'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 12:49:41 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 12:49:41 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_aLOcn34LZFJKH4'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 12:51:19 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 12:51:19 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_jqyACOwtLcYtTB'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[19-Feb-2019 12:51:53 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[19-Feb-2019 12:51:53 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_o2xRf3Avo8hoVr'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:05:22 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:05:22 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_LiTnThMM8ukT52'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:06:41 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:06:41 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:06:42 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_QXaFF9vL8bMTVF'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:06:42 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:06:42 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_zK0UD2z37hgz9F'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:06:42 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_uJzdjdy9iC1klS'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:06:47 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:06:48 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_TA0gFDUmePyHfv'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:08:45 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:08:45 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_fqAP0LbOo0syoZ'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:15:13 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:15:13 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_Q1yvxSJE45flz6'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Feb-2019 14:15:31 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[20-Feb-2019 14:15:31 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_mUduPCxjPAj1Ir'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[21-Feb-2019 06:09:57 Etc/GMT] PHP Notice:  Undefined index: stripeToken in /home/dharmani/public_html/customStripe/charge.php on line 24
+[21-Feb-2019 06:09:58 Etc/GMT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Must provide source or customer. in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_HX20Z7YA5nwhI7'
+Stack trace:
+#0 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(56): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(23): Stripe in /home/dharmani/public_html/customStripe/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
